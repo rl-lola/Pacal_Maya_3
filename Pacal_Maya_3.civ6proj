@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Pacal's Maya</Name>
+    <Guid>a7965717-5ea7-4a46-bac8-e84ec9eb6f27</Guid>
+    <ProjectGuid>d5775f94-9c10-4936-b575-971be2bd433b</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds the Mayan Civilization to the game.</Teaser>
+    <Description>Adds the Mayan Civilization to the game, led by Pacal.</Description>
+    <Authors>Rohan</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>Pacal_Maya_3</AssemblyName>
+    <RootNamespace>Pacal_Maya_3</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="NewAction"><File>Core/RL_Config.sql</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/RL_Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/RL_GameText.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles"><File>Textures/ICON_CIVILIZATION_RL_MAYA_COLOR.dds</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_COLOR.tex</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_200.dds</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_200.tex</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_22.dds</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_22.tex</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_256.dds</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_256.tex</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_30.dds</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_30.tex</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_32.dds</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_32.tex</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_36.dds</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_36.tex</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_44.dds</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_44.tex</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_48.dds</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_48.tex</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_50.dds</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_50.tex</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_55.dds</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_55.tex</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_64.dds</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_64.tex</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_80.dds</File><File>Textures/ICON_CIVILIZATION_RL_MAYA_80.tex</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_200.dds</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_200.tex</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_22.dds</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_22.tex</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_256.dds</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_256.tex</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_30.dds</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_30.tex</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_32.dds</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_32.tex</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_36.dds</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_36.tex</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_44.dds</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_44.tex</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_45.dds</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_45.tex</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_48.dds</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_48.tex</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_50.dds</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_50.tex</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_55.dds</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_55.tex</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_64.dds</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_64.tex</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_80.dds</File><File>Textures/ICON_LEADER_RL_PACAL_CUSTOM_80.tex</File><File>Textures/ICON_LEADER_RL_PACAL_PORTRAIT.dds</File><File>Textures/ICON_LEADER_RL_PACAL_PORTRAIT.tex</File><File>Textures/FALLBACK_NEUTRAL_LEADER_RL_PACAL_CUSTOM.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_RL_PACAL_CUSTOM.tex</File><File>Textures/LEADER_RL_PACAL_CUSTOM_BACKGROUND.dds</File><File>Textures/LEADER_RL_PACAL_CUSTOM_BACKGROUND.tex</File><File>Textures/LEADER_RL_PACAL_CUSTOM_LOADING.dds</File><File>Textures/LEADER_RL_PACAL_CUSTOM_LOADING.tex</File></ImportFiles><ImportFiles id="ImportAtlatlistFiles"><File>Textures/ICON_UNIT_RL_ATLATLIST_22.dds</File><File>Textures/ICON_UNIT_RL_ATLATLIST_22.tex</File><File>Textures/ICON_UNIT_RL_ATLATLIST_256.dds</File><File>Textures/ICON_UNIT_RL_ATLATLIST_256.tex</File><File>Textures/ICON_UNIT_RL_ATLATLIST_32.dds</File><File>Textures/ICON_UNIT_RL_ATLATLIST_32.tex</File><File>Textures/ICON_UNIT_RL_ATLATLIST_38.dds</File><File>Textures/ICON_UNIT_RL_ATLATLIST_38.tex</File><File>Textures/ICON_UNIT_RL_ATLATLIST_50.dds</File><File>Textures/ICON_UNIT_RL_ATLATLIST_50.tex</File><File>Textures/ICON_UNIT_RL_ATLATLIST_80.dds</File><File>Textures/ICON_UNIT_RL_ATLATLIST_80.tex</File></ImportFiles><ImportFiles id="ImportKaahFiles"><File>Textures/ICON_DISTRICT_KAAH_128.dds</File><File>Textures/ICON_DISTRICT_KAAH_128.tex</File><File>Textures/ICON_DISTRICT_KAAH_256.dds</File><File>Textures/ICON_DISTRICT_KAAH_256.tex</File><File>Textures/ICON_DISTRICT_KAAH_32.dds</File><File>Textures/ICON_DISTRICT_KAAH_32.tex</File><File>Textures/ICON_DISTRICT_KAAH_38.dds</File><File>Textures/ICON_DISTRICT_KAAH_38.tex</File><File>Textures/ICON_DISTRICT_KAAH_50.dds</File><File>Textures/ICON_DISTRICT_KAAH_50.tex</File><File>Textures/ICON_DISTRICT_KAAH_80.dds</File><File>Textures/ICON_DISTRICT_KAAH_80.tex</File></ImportFiles></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="NewAction"><File>Core/RL_Long_Count.xml</File><File>Core/RL_Atlatlist.xml</File><File>Core/RL_Kaah.xml</File><File>Core/RL_Sun_Shield.xml</File><File>Core/RL_GameDefines.sql</File></UpdateDatabase><UpdateIcons id="NewAction"><File>Core/RL_Icons.xml</File></UpdateIcons><UpdateText id="NewAction"><File>Core/RL_GameText.xml</File></UpdateText><UpdateArt id="NewAction"><File>(Mod Art Dependency File)</File><File>ArtDefs/Districts.artdef</File><File>ArtDefs/Landmarks.artdef</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <ModProperties>
+      <CustomProperties xmlns="" />
+    </ModProperties>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml.bak" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs" />
+    <Folder Include="Assets\" />
+    <Folder Include="Core" />
+    <Folder Include="XLPs" />
+    <Folder Include="Textures" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\LeaderFallbacks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_Kaah.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_Atlatlist.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_Long_Count.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_Sun_Shield.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_GameDefines.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\RL_GameText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Mod.Art.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_RL_PACAL_CUSTOM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_RL_PACAL_CUSTOM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_RL_MAYA_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DISTRICT_KAAH_128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DISTRICT_KAAH_128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DISTRICT_KAAH_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DISTRICT_KAAH_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DISTRICT_KAAH_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DISTRICT_KAAH_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DISTRICT_KAAH_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DISTRICT_KAAH_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DISTRICT_KAAH_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DISTRICT_KAAH_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DISTRICT_KAAH_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_DISTRICT_KAAH_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_CUSTOM_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_PORTRAIT.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_RL_PACAL_PORTRAIT.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_RL_ATLATLIST_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_RL_ATLATLIST_22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_RL_ATLATLIST_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_RL_ATLATLIST_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_RL_ATLATLIST_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_RL_ATLATLIST_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_RL_ATLATLIST_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_RL_ATLATLIST_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_RL_ATLATLIST_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_RL_ATLATLIST_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_RL_ATLATLIST_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_RL_ATLATLIST_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_RL_PACAL_CUSTOM_BACKGROUND.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_RL_PACAL_CUSTOM_BACKGROUND.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_RL_PACAL_CUSTOM_LOADING.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_RL_PACAL_CUSTOM_LOADING.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderBackgrounds.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UILeaders.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

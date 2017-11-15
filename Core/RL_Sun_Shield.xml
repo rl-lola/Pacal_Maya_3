@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RL_Sun_Shield -->
+<!-- Author: Rohan -->
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_RL_MAYAPALACE" Kind="KIND_BUILDING"/>
+	</Types>
+	
+	<Buildings>
+		<Row BuildingType="BUILDING_RL_MAYAPALACE" Name="LOC_BUILDING_RL_MAYAPALACE_NAME" Description="LOC_BUILDING_RL_MAYAPALACE_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" MustPurchase="1" Cost="999999999" AdvisorType="ADVISOR_CONQUEST" Maintenance="0" RegionalRange="6" Entertainment="1" MaxPlayerInstances="1"/>
+	</Buildings>
+	
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_RL_MAYAPALACE" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row BuildingType="BUILDING_RL_MAYAPALACE" YieldType="YIELD_FAITH" YieldChange="3"/>
+		<Row BuildingType="BUILDING_RL_MAYAPALACE" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+	</Building_YieldChanges>
+
+	<BuildingPrereqs>
+		<Row Building="BUILDING_RL_MAYAPALACE" PrereqBuilding="BUILDING_PALACE"/>
+	</BuildingPrereqs>
+
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_RL_GRANT_MAYAPALACE_AT_POL_MODIFIER</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CAPITAL_CITY</CollectionType>
+			<EffectType>EFFECT_GRANT_BUILDING_IN_CITY_IGNORE</EffectType>
+		</Row>
+	</DynamicModifiers>
+	
+	<Modifiers>
+		<Row>
+			<ModifierID>MODIFIER_RL_GRANT_MAYAPALACE_AT_POL</ModifierID>
+			<ModifierType>MODIFIER_RL_GRANT_MAYAPALACE_AT_POL_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>PLAYER_ELIGIBLE_FOR_MAYAPALACE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierID>MODIFIER_RL_GRANT_MAYAPALACE_AT_POL</ModifierID>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_RL_MAYAPALACE</Value>
+		</Row>
+	</ModifierArguments>
+
+	<CivicModifiers>
+		<Row>
+			<CivicType>CIVIC_THEOLOGY</CivicType>
+			<ModifierId>MODIFIER_RL_GRANT_MAYAPALACE_AT_POL</ModifierId>
+		</Row>
+	</CivicModifiers>
+
+	
+	<!-- REQUIREMENTS -->
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_ELIGIBLE_FOR_MAYAPALACE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_ELIGIBLE_FOR_MAYAPALACE</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_THEOLOGY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ELIGIBLE_FOR_MAYAPALACE</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_MAJOR</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_IS_MAJOR</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_IS_MAJOR</RequirementType>
+		</Row>
+
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_THEOLOGY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_THEOLOGY</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_THEOLOGY</Value>
+		</Row>
+	</RequirementArguments>
+
+</GameInfo>

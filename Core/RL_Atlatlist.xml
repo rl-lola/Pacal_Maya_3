@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RL_Atlatlist -->
+<!-- Author: Rohan -->
+<!-- DateCreated: 11/10/2017 4:29:42 PM -->
+<GameData>
+
+	<Types>
+		<Row Type="UNIT_RL_ATLATLIST" Kind="KIND_UNIT"/>
+	</Types>
+
+	<Units>
+		<Row UnitType="UNIT_RL_ATLATLIST" BaseMoves="2" Cost="30" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_RL_ATLATLIST_NAME" Description="LOC_UNIT_RL_ATLATLIST_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Combat="5" MandatoryObsoleteTech="TECH_MACHINERY" RangedCombat="14" Range="2" TraitType="TRAIT_RL_ATLATLIST"/>
+	</Units>
+
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_RL_ATLATLIST" ReplacesUnitType="UNIT_SLINGER"/>
+	</UnitReplaces>
+
+	<TypeTags>
+		<Row Type="UNIT_RL_ATLATLIST" Tag="CLASS_RANGED"/>
+	</TypeTags>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_RL_ATLATLIST" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_RL_ATLATLIST" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_RL_ATLATLIST" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+
+	<UnitUpgrades>
+		<Row Unit="UNIT_RL_ATLATLIST" UpgradeUnit="UNIT_ARCHER"/>
+	</UnitUpgrades>
+	
+</GameData>

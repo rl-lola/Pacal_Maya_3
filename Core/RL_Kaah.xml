@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RL_Kaah -->
+<!-- Author: Rohan -->
+<!-- DateCreated: 11/13/2017 1:42:01 PM -->
+<GameData>
+	
+	<Types>
+		<Row Type="DISTRICT_KAAH" Kind="KIND_DISTRICT"/>
+	</Types>
+
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_KAAH" ReplacesDistrictType="DISTRICT_NEIGHBORHOOD"/>
+	</DistrictReplaces>
+
+	<Districts>
+		<Row
+			DistrictType="DISTRICT_KAAH"
+			Name="LOC_DISTRICT_KAAH_NAME"
+			Description="LOC_DISTRICT_KAAH_DESCRIPTION"
+			PrereqTech="TECH_MASONRY"
+			PlunderType="PLUNDER_GOLD"
+			PlunderAmount="75"
+			AdvisorType="ADVISOR_GENERIC"
+			Cost="60"
+			CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH"
+			CostProgressionParam1="50"
+			Maintenance="1"
+			RequiresPlacement="true"
+			RequiresPopulation="false"
+			OnePerCity="false"
+			Aqueduct="false"
+			NoAdjacentCity="false"
+			InternalOnly="false"
+			ZOC="false"
+			CaptureRemovesBuildings="false"
+			CaptureRemovesCityDefenses="false"
+			MilitaryDomain="NO_DOMAIN"
+			CityStrengthModifier="2"
+			TraitType="TRAIT_RL_KAAH"
+			Housing="2"
+			/>
+	</Districts>
+
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_KAAH" YieldChangeId="Kaah_FoodDefault"/>
+		<Row DistrictType="DISTRICT_KAAH" YieldChangeId="Kaah_Food1"/>
+		<Row DistrictType="DISTRICT_KAAH" YieldChangeId="Kaah_Science1"/>
+		<Row DistrictType="DISTRICT_KAAH" YieldChangeId="Kaah_Culture1"/>
+		<Row DistrictType="DISTRICT_KAAH" YieldChangeId="Kaah_Faith1"/>
+		<Row DistrictType="DISTRICT_KAAH" YieldChangeId="Kaah_Gold1"/>
+	</District_Adjacencies>
+
+	<District_ValidTerrains>
+		<Row DistrictType="DISTRICT_KAAH" TerrainType="TERRAIN_GRASS"/>
+		<Row DistrictType="DISTRICT_KAAH" TerrainType="TERRAIN_PLAINS"/>
+	</District_ValidTerrains>
+
+	<Adjacency_YieldChanges>
+		<Row
+			ID="Kaah_FoodDefault"
+			Description="LOC_DISTRICT_KAAH_FOODDEFAULT_DESCRIPTION"
+			YieldType="YIELD_FOOD"
+			YieldChange="2"
+			TilesRequired="1"
+			AdjacentDistrict="DISTRICT_CITY_CENTER"
+		/>
+		<Row
+			ID="Kaah_Food1"
+			Description="LOC_DISTRICT_KAAH_FOOD1_DESCRIPTION"
+			YieldType="YIELD_FOOD"
+			YieldChange="1"
+			TilesRequired="1"
+			AdjacentDistrict="DISTRICT_KAAH"
+		/>
+		<Row
+			ID="Kaah_Science1"
+			Description="LOC_DISTRICT_KAAH_SCIENCE1_DESCRIPTION"
+			YieldType="YIELD_SCIENCE"
+			YieldChange="1"
+			TilesRequired="1"
+			AdjacentDistrict="DISTRICT_CAMPUS"
+		/>
+		<Row
+			ID="Kaah_Culture1"
+			Description="LOC_DISTRICT_KAAH_CULTURE1_DESCRIPTION"
+			YieldType="YIELD_CULTURE"
+			YieldChange="1"
+			TilesRequired="1"
+			AdjacentDistrict="DISTRICT_THEATER"
+		/>
+		<Row
+			ID="Kaah_Faith1"
+			Description="LOC_DISTRICT_KAAH_FAITH1_DESCRIPTION"
+			YieldType="YIELD_FAITH"
+			YieldChange="1"
+			TilesRequired="1"
+			AdjacentDistrict="DISTRICT_HOLY_SITE"
+		/>
+		<Row
+			ID="Kaah_Gold1"
+			Description="LOC_DISTRICT_KAAH_GOLD1_DESCRIPTION"
+			YieldType="YIELD_GOLD"
+			YieldChange="1"
+			TilesRequired="1"
+			AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"
+		/>
+	</Adjacency_YieldChanges>
+	
+	<!-- MODIFIERS ################################################################################################# -->
+	
+	<!--<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_KAAH</DistrictType>
+			<ModifierId>KAAH_FOOD</ModifierId>
+		</Row>-
+
+	</DistrictModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>KAAH_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>
+		
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>KAAH_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>KAAH_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+
+	</ModifierArguments>-->
+
+</GameData>

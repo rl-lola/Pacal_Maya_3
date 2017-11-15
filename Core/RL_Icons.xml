@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RL_Icons -->
+<!-- Author: Rohan -->
+<!-- DateCreated: 11/10/2017 5:38:38 PM -->
+<GameData>
+
+	<IconTextureAtlases>
+		<!--Leader Icons-->
+
+		<Row Name="ICON_ATLAS_LEADER_RL_PACAL_CUSTOM" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_RL_PACAL_CUSTOM_32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_RL_PACAL_CUSTOM" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_RL_PACAL_CUSTOM_50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_RL_PACAL_CUSTOM" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_RL_PACAL_CUSTOM_55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_RL_PACAL_CUSTOM" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_RL_PACAL_CUSTOM_64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_RL_PACAL_CUSTOM" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_RL_PACAL_CUSTOM_80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_RL_PACAL_CUSTOM" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_RL_PACAL_CUSTOM_256.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_RL_PACAL_CUSTOM" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_RL_PACAL_CUSTOM_45.dds"/>
+
+		<Row Name="ICON_ATLAS_LEADER_RL_PACAL_CUSTOM" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_RL_PACAL_CUSTOM_200.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_RL_PACAL_CUSTOM" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_RL_PACAL_CUSTOM_48.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_RL_PACAL_CUSTOM" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_RL_PACAL_CUSTOM_44.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_RL_PACAL_CUSTOM" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_RL_PACAL_CUSTOM_36.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_RL_PACAL_CUSTOM" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_RL_PACAL_CUSTOM_30.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_RL_PACAL_CUSTOM" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_RL_PACAL_CUSTOM_22.dds"/>
+
+		<!--CIV Icons-->
+
+		<Row Name="ICON_ATLAS_MAYA" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_RL_MAYA_32.dds"/>
+		<Row Name="ICON_ATLAS_MAYA" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_RL_MAYA_50.dds"/>
+		<Row Name="ICON_ATLAS_MAYA" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_RL_MAYA_55.dds"/>
+		<Row Name="ICON_ATLAS_MAYA" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_RL_MAYA_64.dds"/>
+		<Row Name="ICON_ATLAS_MAYA" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_RL_MAYA_80.dds"/>
+		<Row Name="ICON_ATLAS_MAYA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_RL_MAYA_256.dds"/>
+		<Row Name="ICON_ATLAS_MAYA" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_RL_MAYA_45.dds"/>
+
+		<!--new ones-->
+		<Row Name="ICON_ATLAS_MAYA" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_RL_MAYA_200.dds"/>
+		<Row Name="ICON_ATLAS_MAYA" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_RL_MAYA_48.dds"/>
+		<Row Name="ICON_ATLAS_MAYA" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_RL_MAYA_44.dds"/>
+		<Row Name="ICON_ATLAS_MAYA" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_RL_MAYA_36.dds"/>
+		<Row Name="ICON_ATLAS_MAYA" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_RL_MAYA_30.dds"/>
+		<Row Name="ICON_ATLAS_MAYA" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_RL_MAYA_22.dds"/>
+
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<!--Leader Icons-->
+		<Row Name="ICON_LEADER_RL_PACAL_CUSTOM" Atlas="ICON_ATLAS_LEADER_RL_PACAL_CUSTOM" Index="0"/>
+
+		<!--Civilization Icons-->
+		<Row Name="ICON_CIVILIZATION_RL_MAYA" Atlas="ICON_ATLAS_MAYA" Index="0"/>
+
+		<!--Building Icons-->
+		<!--<Row Name="ICON_BUILDING_RL_CUSTOM" Atlas="ICON_ATLAS_CIVICS" Index="29"/>-->
+
+	</IconDefinitions>
+
+	<!--ATLATLIST ICONS #########################################################################################-->
+
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_UNIT_RL_ATLATLIST" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_RL_ATLATLIST_22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_RL_ATLATLIST" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_RL_ATLATLIST_32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_RL_ATLATLIST" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_RL_ATLATLIST_38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_RL_ATLATLIST" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_RL_ATLATLIST_50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_RL_ATLATLIST" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_RL_ATLATLIST_80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_RL_ATLATLIST" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_RL_ATLATLIST_256.dds"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_UNIT_RL_ATLATLIST" Atlas="ICON_ATLAS_UNIT_RL_ATLATLIST" Index="0"/>
+		<Row Name="ICON_UNIT_RL_ATLATLIST_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS"   Index="19"/>
+	</IconDefinitions>
+
+	<!-- KAAH ICONS #############################################################################################-->
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_DISTRICT_KAAH" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_KAAH_32.dds"/>
+		<Row Name="ICON_ATLAS_DISTRICT_KAAH" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_KAAH_38.dds"/>
+		<Row Name="ICON_ATLAS_DISTRICT_KAAH" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_KAAH_50.dds"/>
+		<Row Name="ICON_ATLAS_DISTRICT_KAAH" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_KAAH_80.dds"/>
+		<Row Name="ICON_ATLAS_DISTRICT_KAAH" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_KAAH_128.dds"/>
+		<Row Name="ICON_ATLAS_DISTRICT_KAAH" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_DISTRICT_KAAH_256.dds"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_DISTRICT_KAAH" Atlas="ICON_ATLAS_DISTRICT_KAAH" Index="0"/>
+		<Row Name="ICON_DISTRICT_KAAH_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="10"/>
+	</IconDefinitions>
+		
+</GameData>

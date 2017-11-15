@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>253</build>
+		<revision>293</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="Icons"/>
+	<m_Entries>
+		
+		<Element>
+			<m_EntryID text="LEADER_RL_PACAL_CUSTOM_BACKGROUND"/>
+			<m_ObjectName text="LEADER_RL_PACAL_CUSTOM_BACKGROUND"/>
+			
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_MAYA_200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_MAYA_200"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_MAYA_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_MAYA_22"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_MAYA_256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_MAYA_256"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_MAYA_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_MAYA_30"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_MAYA_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_MAYA_32"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_MAYA_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_MAYA_36"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_MAYA_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_MAYA_44"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_MAYA_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_MAYA_48"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_MAYA_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_MAYA_50"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_MAYA_55"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_MAYA_55"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_MAYA_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_MAYA_64"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_MAYA_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_MAYA_80"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_RL_MAYA_45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_RL_MAYA_45"/>
+		</Element>
+		
+		<!--leader icons@###################################################### -->
+
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACAL_CUSTOM_200"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACAL_CUSTOM_200"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACAL_CUSTOM_22"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACAL_CUSTOM_22"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACAL_CUSTOM_256"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACAL_CUSTOM_256"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACAL_CUSTOM_30"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACAL_CUSTOM_30"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACAL_CUSTOM_32"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACAL_CUSTOM_32"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACAL_CUSTOM_36"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACAL_CUSTOM_36"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACAL_CUSTOM_44"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACAL_CUSTOM_44"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACAL_CUSTOM_48"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACAL_CUSTOM_48"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACAL_CUSTOM_50"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACAL_CUSTOM_50"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACAL_CUSTOM_55"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACAL_CUSTOM_55"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACAL_CUSTOM_64"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACAL_CUSTOM_64"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACAL_CUSTOM_80"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACAL_CUSTOM_80"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_LEADER_RL_PACAL_CUSTOM_45"/>
+			<m_ObjectName text="ICON_LEADER_RL_PACAL_CUSTOM_45"/>
+		</Element>
+		
+		<!-- ATLATLIST ICONS #######################################################-->
+
+		<Element>
+			<m_EntryID text="ICON_UNIT_RL_ATLATLIST_22"/>
+			<m_ObjectName text="ICON_UNIT_RL_ATLATLIST_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RL_ATLATLIST_32"/>
+			<m_ObjectName text="ICON_UNIT_RL_ATLATLIST_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RL_ATLATLIST_38"/>
+			<m_ObjectName text="ICON_UNIT_RL_ATLATLIST_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RL_ATLATLIST_50"/>
+			<m_ObjectName text="ICON_UNIT_RL_ATLATLIST_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RL_ATLATLIST_80"/>
+			<m_ObjectName text="ICON_UNIT_RL_ATLATLIST_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RL_ATLATLIST_256"/>
+			<m_ObjectName text="ICON_UNIT_RL_ATLATLIST_256"/>
+		</Element>
+		
+		<!-- DISTRICT ICONS #######################################################-->
+
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_KAAH_32"/>
+			<m_ObjectName text="ICON_DISTRICT_KAAH_32"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_KAAH_38"/>
+			<m_ObjectName text="ICON_DISTRICT_KAAH_38"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_KAAH_50"/>
+			<m_ObjectName text="ICON_DISTRICT_KAAH_50"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_KAAH_80"/>
+			<m_ObjectName text="ICON_DISTRICT_KAAH_80"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_KAAH_128"/>
+			<m_ObjectName text="ICON_DISTRICT_KAAH_128"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_KAAH_256"/>
+			<m_ObjectName text="ICON_DISTRICT_KAAH_256"/>
+		</Element>
+		
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects::XLP>

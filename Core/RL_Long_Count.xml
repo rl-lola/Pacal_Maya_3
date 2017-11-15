@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RL_Long_Count -->
+<!-- Author: Rohan -->
+<!-- DateCreated: 11/10/2017 11:33:11 AM -->
+<GameData>
+	
+	<Modifiers>
+
+		<!--CLASSICAL ################################################################## CLASSICAL ############################################################## CLASSICAL-->
+		
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_CLASSICAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_CLASSICAL</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_CLASSICAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_CLASSICAL</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_CLASSICAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_CLASSICAL</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<!--RENAISSANCE ################################################################## RENAISSANCE ############################################################## RENAISSANCE-->
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_RENAISSANCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_RENAISSANCE</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_RENAISSANCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_RENAISSANCE</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_RENAISSANCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_RENAISSANCE</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<!--MEDIEVAL ################################################################## MEDIEVAL ############################################################## MEDIEVAL-->
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_MEDIEVAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_MEDIEVAL</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_MEDIEVAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_MEDIEVAL</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_MEDIEVAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_MEDIEVAL</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<!--INDUSTRIAL ################################################################## INDUSTRIAL ############################################################## INDUSTRIAL-->
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_INDUSTRIAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_INDUSTRIAL</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_INDUSTRIAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_INDUSTRIAL</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_INDUSTRIAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_INDUSTRIAL</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<!--MODERN ################################################################## MODERN ############################################################## MODERN-->
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_MODERN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_MODERN</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_MODERN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_MODERN</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_MODERN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_MODERN</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<!--ATOMIC ################################################################## ATOMIC ############################################################## ATOMIC-->
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_ATOMIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_ATOMIC</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_ATOMIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_ATOMIC</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_ATOMIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_ATOMIC</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<!--INFORMATION ################################################################## INFORMATION ############################################################## INFORMATION-->
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_INFORMATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_INFORMATION</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_INFORMATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_INFORMATION</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_INFORMATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ENTERED_INFORMATION</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+		</Row>
+		
+	</Modifiers>
+
+	<ModifierArguments>
+		<!--CLASSICAL ################################################################## CLASSICAL ############################################################## CLASSICAL-->
+		
+		<!-- classical grant gold-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_CLASSICAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_CLASSICAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+
+		<!-- classical grant culture-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_CLASSICAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_CLASSICAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+
+		<!-- classical grant faith-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_CLASSICAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_CLASSICAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+
+		<!--MEDIEVAL ################################################################## MEDIEVAL ############################################################## MEDIEVAL-->
+
+		<!-- MEDIEVAL grant gold-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_MEDIEVAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_MEDIEVAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+
+		<!-- MEDIEVAL grant culture-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_MEDIEVAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_MEDIEVAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+
+		<!-- MEDIEVAL grant faith-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_MEDIEVAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_MEDIEVAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+
+		<!--RENAISSANCE ################################################################## RENAISSANCE ############################################################## RENAISSANCE-->
+
+		<!-- RENAISSANCE grant gold-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_RENAISSANCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>150</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_RENAISSANCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+
+		<!-- RENAISSANCE grant culture-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_RENAISSANCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>150</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_RENAISSANCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+
+		<!-- RENAISSANCE grant faith-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_RENAISSANCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>150</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_RENAISSANCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+
+		<!--INDUSTRIAL ################################################################## INDUSTRIAL ############################################################## INDUSTRIAL-->
+
+		<!-- INDUSTRIAL grant gold-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_INDUSTRIAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_INDUSTRIAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+
+		<!-- INDUSTRIAL grant culture-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_INDUSTRIAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_INDUSTRIAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+
+		<!-- INDUSTRIAL grant faith-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_INDUSTRIAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_INDUSTRIAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+
+		<!--MODERN ################################################################## MODERN ############################################################## MODERN-->
+
+		<!-- MODERN grant gold-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_MODERN</ModifierId>
+			<Name>Amount</Name>
+			<Value>250</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_MODERN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+
+		<!-- MODERN grant culture-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_MODERN</ModifierId>
+			<Name>Amount</Name>
+			<Value>250</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_MODERN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+
+		<!-- MODERN grant faith-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_MODERN</ModifierId>
+			<Name>Amount</Name>
+			<Value>250</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_MODERN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+
+		<!--ATOMIC ################################################################## ATOMIC ############################################################## ATOMIC-->
+
+		<!-- ATOMIC grant gold-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_ATOMIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>300</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_ATOMIC</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+
+		<!-- ATOMIC grant culture-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_ATOMIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>300</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_ATOMIC</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+
+		<!-- ATOMIC grant faith-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_ATOMIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>300</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_ATOMIC</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+
+		<!--INFORMATION ################################################################## INFORMATION ############################################################## INFORMATION-->
+
+		<!-- INFORMATION grant gold-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_INFORMATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>350</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTGOLD_INFORMATION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+
+		<!-- INFORMATION grant culture-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_INFORMATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>350</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTCULTURE_INFORMATION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+
+		<!-- INFORMATION grant faith-->
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_INFORMATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>350</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_LONGCOUNT_GRANTFAITH_INFORMATION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		
+	</ModifierArguments>
+
+	<RequirementSets>
+		
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_CLASSICAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_MEDIEVAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_RENAISSANCE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_INDUSTRIAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_MODERN</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_ATOMIC</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_INFORMATION</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		
+	</RequirementSets>
+
+	
+	<Requirements>
+		<!--CLASSICAL TECHS #################-->
+		<Row>
+			<RequirementId>PLAYER_HAS_CELESTIAL_NAVIGATION</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_CURRENCY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_HORSEBACK_RIDING</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_IRON_WORKING</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+
+		<!--MEDIEVAL TECHS #################-->
+		<Row>
+			<RequirementId>PLAYER_HAS_MILITARY_TACTICS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_APPRENTICESHIP</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_STIRRUPS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_MACHINERY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+
+		<!--RENAISSANCE TECHS #################-->
+		<Row>
+			<RequirementId>PLAYER_HAS_CARTOGRAPHY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_MASS_PRODUCTION</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_BANKING</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_GUNPOWDER</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_PRINTING_PRESS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_ASTRONOMY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+
+		<!--INDUSTRIAL TECHS #################-->
+		<Row>
+			<RequirementId>PLAYER_HAS_INDUSTRIALIZATION</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_SCIENTIFIC_THEORY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_BALLISTICS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_MILITARY_SCIENCE</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+
+		<!--MODERN TECHS #################-->
+		<Row>
+			<RequirementId>PLAYER_HAS_FLIGHT</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_REPLACEABLE_PARTS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_STEEL</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_COMBUSTION</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_ELECTRICITY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+
+
+
+		<!--ATOMIC TECHS #################-->
+		<Row>
+			<RequirementId>PLAYER_HAS_ADVANCED_FLIGHT</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_ROCKETRY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_ADVANCED_BALLISTICS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_COMBINED_ARMS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_PLASTICS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+
+		<!--INFORMATION TECHS #################-->
+		<Row>
+			<RequirementId>PLAYER_HAS_TELECOMMUNICATIONS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_SATELLITES</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_GUIDANCE_SYSTEMS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_LASERS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_COMPOSITES</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_STEALTH</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		
+		
+	</Requirements>
+
+	<RequirementArguments>
+
+		<!--CLASSICAL TECHS #################-->
+		<Row>
+			<RequirementId>PLAYER_HAS_CELESTIAL_NAVIGATION</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_CELESTIAL_NAVIGATION</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_CURRENCY</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_CURRENCY</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_HORSEBACK_RIDING</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_HORSEBACK_RIDING</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_IRON_WORKING</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_IRON_WORKING</Value>
+		</Row>
+
+		<!--MEDIEVAL TECHS #################-->
+
+		<Row>
+			<RequirementId>PLAYER_HAS_MILITARY_TACTICS</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_MILITARY_TACTICS</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_APPRENTICESHIP</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_APPRENTICESHIP</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_STIRRUPS</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_STIRRUPS</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_MACHINERY</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_MACHINERY</Value>
+		</Row>
+
+		<!--RENAISSANCE TECHS #################-->
+
+		<Row>
+			<RequirementId>PLAYER_HAS_PRINTING_PRESS</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_PRINTING_PRESS</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_CARTOGRAPHY</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_CARTOGRAPHY</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_MASS_PRODUCTION</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_MASS_PRODUCTION</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_BANKING</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_BANKING</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_GUNPOWDER</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_GUNPOWDER</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_ASTRONOMY</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_ASTRONOMY</Value>
+		</Row>
+
+		<!--INDUSTRIAL TECHS #################-->
+
+		<Row>
+			<RequirementId>PLAYER_HAS_INDUSTRIALIZATION</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_INDUSTRIALIZATION</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_SCIENTIFIC_THEORY</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_SCIENTIFIC_THEORY</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_BALLISTICS</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_BALLISTICS</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_MILITARY_SCIENCE</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_MILITARY_SCIENCE</Value>
+		</Row>
+
+		<!--MODERN TECHS #################-->
+
+		<Row>
+			<RequirementId>PLAYER_HAS_FLIGHT</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_FLIGHT</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_REPLACEABLE_PARTS</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_REPLACEABLE_PARTS</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_STEEL</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_STEEL</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_COMBUSTION</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_COMBUSTION</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_ELECTRICITY</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_ELECTRICITY</Value>
+		</Row>
+
+		<!--ATOMIC TECHS #################-->
+
+		<Row>
+			<RequirementId>PLAYER_HAS_ADVANCED_FLIGHT</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_ADVANCED_FLIGHT</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_ROCKETRY</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_ROCKETRY</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_ADVANCED_BALLISTICS</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_ADVANCED_BALLISTICS</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_COMBINED_ARMS</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_COMBINED_ARMS</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_PLASTICS</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_PLASTICS</Value>
+		</Row>
+
+		<!--ATOMIC TECHS #################-->
+
+		<Row>
+			<RequirementId>PLAYER_HAS_TELECOMMUNICATIONS</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_TELECOMMUNICATIONS</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_SATELLITES</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_SATELLITES</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_GUIDANCE_SYSTEMS</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_GUIDANCE_SYSTEMS</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_LASERS</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_LASERS</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_COMPOSITES</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_COMPOSITES</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>PLAYER_HAS_STEALTH</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_STEALTH</Value>
+		</Row>
+		
+	</RequirementArguments>
+
+	<RequirementSetRequirements>
+		<!--CLASSICAL TECHS #################-->
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_CLASSICAL</RequirementSetId>
+			<RequirementId>PLAYER_HAS_CELESTIAL_NAVIGATION</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_CLASSICAL</RequirementSetId>
+			<RequirementId>PLAYER_HAS_CURRENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_CLASSICAL</RequirementSetId>
+			<RequirementId>PLAYER_HAS_HORSEBACK_RIDING</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_CLASSICAL</RequirementSetId>
+			<RequirementId>PLAYER_HAS_IRON_WORKING</RequirementId>
+		</Row>
+
+		<!--MEDIEVAL TECHS #################-->
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_MEDIEVAL</RequirementSetId>
+			<RequirementId>PLAYER_HAS_MILITARY_TACTICS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_MEDIEVAL</RequirementSetId>
+			<RequirementId>PLAYER_HAS_APPRENTICESHIP</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_MEDIEVAL</RequirementSetId>
+			<RequirementId>PLAYER_HAS_STIRRUPS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_MEDIEVAL</RequirementSetId>
+			<RequirementId>PLAYER_HAS_MACHINERY</RequirementId>
+		</Row>
+
+		<!--RENAISSANCE TECHS #################-->
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_RENAISSANCE</RequirementSetId>
+			<RequirementId>PLAYER_HAS_CARTOGRAPHY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_RENAISSANCE</RequirementSetId>
+			<RequirementId>PLAYER_HAS_MASS_PRODUCTION</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_RENAISSANCE</RequirementSetId>
+			<RequirementId>PLAYER_HAS_BANKING</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_RENAISSANCE</RequirementSetId>
+			<RequirementId>PLAYER_HAS_GUNPOWDER</RequirementId>
+		</Row>			
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_RENAISSANCE</RequirementSetId>
+			<RequirementId>PLAYER_HAS_PRINTING_PRESS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_RENAISSANCE</RequirementSetId>
+			<RequirementId>PLAYER_HAS_ASTRONOMY</RequirementId>
+		</Row>
+
+		<!--INDUSTRIAL TECHS #################-->
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_INDUSTRIAL</RequirementSetId>
+			<RequirementId>PLAYER_HAS_INDUSTRIALIZATION</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_INDUSTRIAL</RequirementSetId>
+			<RequirementId>PLAYER_HAS_SCIENTIFIC_THEORY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_INDUSTRIAL</RequirementSetId>
+			<RequirementId>PLAYER_HAS_BALLISTICS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_INDUSTRIAL</RequirementSetId>
+			<RequirementId>PLAYER_HAS_MILITARY_SCIENCE</RequirementId>
+		</Row>
+
+		<!--MODERN TECHS #################-->
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_MODERN</RequirementSetId>
+			<RequirementId>PLAYER_HAS_ELECTRICITY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_MODERN</RequirementSetId>
+			<RequirementId>PLAYER_HAS_FLIGHT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_MODERN</RequirementSetId>
+			<RequirementId>PLAYER_HAS_REPLACEABLE_PARTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_MODERN</RequirementSetId>
+			<RequirementId>PLAYER_HAS_STEEL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_MODERN</RequirementSetId>
+			<RequirementId>PLAYER_HAS_COMBUSTION</RequirementId> 
+		</Row>
+
+		<!--ATOMIC TECHS #################-->
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_ATOMIC</RequirementSetId>
+			<RequirementId>PLAYER_HAS_ADVANCED_FLIGHT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_ATOMIC</RequirementSetId>
+			<RequirementId>PLAYER_HAS_ROCKETRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_ATOMIC</RequirementSetId>
+			<RequirementId>PLAYER_HAS_ADVANCED_BALLISTICS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_ATOMIC</RequirementSetId>
+			<RequirementId>PLAYER_HAS_COMBINED_ARMS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_ATOMIC</RequirementSetId>
+			<RequirementId>PLAYER_HAS_PLASTICS</RequirementId>
+		</Row>
+
+		<!--INFORMATION TECHS #################-->
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_INFORMATION</RequirementSetId>
+			<RequirementId>PLAYER_HAS_TELECOMMUNICATIONS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_INFORMATION</RequirementSetId>
+			<RequirementId>PLAYER_HAS_SATELLITES</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_INFORMATION</RequirementSetId>
+			<RequirementId>PLAYER_HAS_GUIDANCE_SYSTEMS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_INFORMATION</RequirementSetId>
+			<RequirementId>PLAYER_HAS_LASERS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_INFORMATION</RequirementSetId>
+			<RequirementId>PLAYER_HAS_COMPOSITES</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ENTERED_INFORMATION</RequirementSetId>
+			<RequirementId>PLAYER_HAS_STEALTH</RequirementId>
+		</Row>
+
+	</RequirementSetRequirements>
+	
+</GameData>
