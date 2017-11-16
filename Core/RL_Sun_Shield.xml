@@ -7,7 +7,7 @@
 	</Types>
 	
 	<Buildings>
-		<Row BuildingType="BUILDING_RL_MAYAPALACE" Name="LOC_BUILDING_RL_MAYAPALACE_NAME" Description="LOC_BUILDING_RL_MAYAPALACE_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" MustPurchase="1" Cost="999999999" AdvisorType="ADVISOR_CONQUEST" Maintenance="0" RegionalRange="6" Entertainment="1" MaxPlayerInstances="1"/>
+		<Row BuildingType="BUILDING_RL_MAYAPALACE" Name="LOC_BUILDING_RL_MAYAPALACE_NAME" Description="LOC_BUILDING_RL_MAYAPALACE_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" MustPurchase="1" Cost="999999999" AdvisorType="ADVISOR_CONQUEST" Maintenance="0" RegionalRange="4" Entertainment="1" MaxPlayerInstances="1"/>
 	</Buildings>
 	
 	<Building_YieldChanges>
@@ -72,6 +72,10 @@
 			<RequirementSetId>PLAYER_ELIGIBLE_FOR_MAYAPALACE</RequirementSetId>
 			<RequirementId>REQUIRES_PLAYER_IS_MAJOR</RequirementId>
 		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_ELIGIBLE_FOR_MAYAPALACE</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_PACAL</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 
 
@@ -85,6 +89,11 @@
 			<RequirementId>REQUIRES_PLAYER_HAS_THEOLOGY</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
 		</Row>
+
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_IS_PACAL</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES</RequirementType>
+		</Row>
 	</Requirements>
 
 	<RequirementArguments>
@@ -92,6 +101,12 @@
 			<RequirementId>REQUIRES_PLAYER_HAS_THEOLOGY</RequirementId>
 			<Name>CivicType</Name>
 			<Value>CIVIC_THEOLOGY</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_IS_PACAL</RequirementId>
+			<Name>LeaderType</Name>
+			<Value>LEADER_RL_PACAL_CUSTOM</Value>
 		</Row>
 	</RequirementArguments>
 

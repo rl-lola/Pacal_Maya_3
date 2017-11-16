@@ -449,7 +449,7 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_RL_SUN_SHIELD_DESCRIPTION" Language="en_US">
 			<Text>
-				After researching Theology, all cities within 6 tiles of your capital receive +3 [ICON_SCIENCE] Science, +3 [ICON_FAITH] Faith, +3 [ICON_CULTURE] Culture, and +1 [ICON_AMENITIES] Amenity.
+				After researching Theology, all cities within 4 tiles of your capital receive +3 [ICON_SCIENCE] Science, +3 [ICON_FAITH] Faith, +3 [ICON_CULTURE] Culture, and +1 [ICON_AMENITIES] Amenity.
 			</Text>
 		</Row>
 
@@ -466,7 +466,7 @@
 			<Text>Sun Shield</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_RL_MAYAPALACE_DESCRIPTION" Language="en_US">
-			<Text>+3 [ICON_SCIENCE] Science, +3 [ICON_FAITH] Faith, +3 [ICON_CULTURE] Culture, and +1 [ICON_AMENITIES] Amenity to all cities within 6 tiles of your capital.</Text>
+			<Text>+3 [ICON_SCIENCE] Science, +3 [ICON_FAITH] Faith, +3 [ICON_CULTURE] Culture, and +1 [ICON_AMENITIES] Amenity to all cities within 4 tiles of your capital.</Text>
 		</Row>
 		
 		<!-- ATLATLIST-->
@@ -499,17 +499,6 @@
 		<Row Tag="LOC_TRAIT_RL_KAAH_DESCRIPTION" Language="en_US">
 			<Text>Mayan replacement for the Neighborhood district. Available far earlier, at Masonry. Provides less housing than the Neighborhood it replaces, but gains yields from adjacent districts. Can only be constructed on flat grassland or plains.</Text>
 		</Row>
-
-		<!--<Row Tag="LOC_DISTRICT_KAAH_FOOD1_DESCRIPTION" Language="en_US">
-			<Text>
-				+2 [ICON_FOOD] Food when adjacent to a City Center. [NEWLINE]
-				+1 [ICON_FOOD] Food from each adjacent Kaah. [NEWLINE]
-				+1 [ICON_SCIENCE] Science from each adjacent Campus.[NEWLINE]
-				+1 [ICON_CULTURE] Science from each adjacent Theater Square.[NEWLINE]
-				+1 [ICON_FAITH] Science from each adjacent Holy Site.[NEWLINE]
-				+1 [ICON_GOLD] Gold from each adjacent Commercial Hub.[NEWLINE]
-			</Text>
-		</Row>-->
 
 		<Row Tag="LOC_DISTRICT_KAAH_FOODDEFAULT_DESCRIPTION" Language="en_US">
 			<Text>+{1_num} [ICON_Food] Food from the adjacent City Center {1_Num : plural 1?tile; other?tiles;}.</Text>

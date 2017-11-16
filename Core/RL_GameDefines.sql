@@ -23,13 +23,13 @@ VALUES	('LEADER_RL_PACAL_CUSTOM',	'LOC_PEDIA_LEADERS_PAGE_LEADER_RL_PACAL_CUSTOM
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO HistoricalAgendas	
 		(LeaderType,					AgendaType)
-VALUES	('LEADER_RL_PACAL_CUSTOM',	'AGENDA_FUN_LOVING');
+VALUES	('LEADER_RL_PACAL_CUSTOM',		'AGENDA_FUN_LOVING');
 --------------------------------------------------------------------------------------------------------------------------
 -- AgendaPreferredLeaders
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO AgendaPreferredLeaders	
 		(LeaderType,					AgendaType)
-VALUES	('LEADER_RL_PACAL_CUSTOM',	'AGENDA_EXPLORER');	
+VALUES	('LEADER_RL_PACAL_CUSTOM',		'AGENDA_EXPLORER');	
 
 
 --==========================================================================================================================
@@ -54,8 +54,8 @@ VALUES	('COLOR_PLAYER_RL_MAYA_LEADER_CUSTOM_PRIMARY', 		0.77,	0.57,	0.4,	1),
 -- LoadingInfo
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LoadingInfo	
-		(LeaderType,						BackgroundImage, 						ForegroundImage,									PlayDawnOfManAudio)
-VALUES	('LEADER_RL_PACAL_CUSTOM',			'LEADER_RL_PACAL_CUSTOM_BACKGROUND',	'LEADER_RL_PACAL_CUSTOM_LOADING',				0);	 --LEADER_LEADER_CUSTOM_NEUTRAL
+		(LeaderType,						BackgroundImage, 								ForegroundImage,									PlayDawnOfManAudio)
+VALUES	('LEADER_RL_PACAL_CUSTOM',			'LEADER_RL_PACAL_CUSTOM_BACKGROUND_LOADING',	'LEADER_RL_PACAL_CUSTOM_LOADING',				0);	 --LEADER_LEADER_CUSTOM_NEUTRAL
 --==========================================================================================================================
 -- CIVILIZATIONS
 --==========================================================================================================================
@@ -211,13 +211,13 @@ VALUES	('TRAIT_LEADER_RL_SUN_SHIELD',						'KIND_TRAIT'),
 --------------------------------------------------------------------------------------------------------------------------				
 INSERT INTO Traits				
 		(TraitType,													Name,													Description)
-VALUES	('TRAIT_LEADER_RL_SUN_SHIELD',						'LOC_TRAIT_LEADER_RL_SUN_SHIELD_NAME',			'LOC_TRAIT_LEADER_RL_SUN_SHIELD_DESCRIPTION');	
+VALUES	('TRAIT_LEADER_RL_SUN_SHIELD',								'LOC_TRAIT_LEADER_RL_SUN_SHIELD_NAME',					'LOC_TRAIT_LEADER_RL_SUN_SHIELD_DESCRIPTION');	
 --------------------------------------------------------------------------------------------------------------------------		
 -- TraitModifiers		
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO TraitModifiers			
 		(TraitType,													ModifierId)
-VALUES	('TRAIT_LEADER_RL_SUN_SHIELD',							'MODIFIER_RL_GRANT_MAYAPALACE_AT_POL');
+VALUES	('TRAIT_LEADER_RL_SUN_SHIELD',								'MODIFIER_RL_GRANT_MAYAPALACE_AT_POL');
 
 
 

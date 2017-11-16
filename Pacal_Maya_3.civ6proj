@@ -331,10 +331,16 @@
     <Content Include="Textures\LEADER_RL_PACAL_CUSTOM_BACKGROUND.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\LEADER_RL_PACAL_CUSTOM_BACKGROUND_LOADING.dds">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\LEADER_RL_PACAL_CUSTOM_LOADING.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\LEADER_RL_PACAL_CUSTOM_LOADING.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_RL_PACAL_CUSTOM_BACKGROUND_LOADING.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\Icons.xlp">
